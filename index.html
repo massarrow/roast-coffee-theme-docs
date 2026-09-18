@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ROAST Coffee — Theme Documentation</title>
+  <meta name="description" content="ROAST Coffee Shopify Theme documentation, setup guide, customization help, troubleshooting, and support.">
+  <style>
+    :root{--bg:#07090a;--panel:#101314;--text:#f4efe7;--muted:#b8b0a5;--gold:#d9a24a;--line:#292b2b;--max:1120px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.7}
+    a{color:var(--gold);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{width:min(100% - 40px,var(--max));margin:auto}
+    header{padding:76px 0 62px;border-bottom:1px solid var(--line);background:radial-gradient(circle at 70% 10%,#252018 0,transparent 34%)}
+    .eyebrow{color:var(--gold);font-size:12px;font-weight:700;letter-spacing:.24em;text-transform:uppercase}
+    h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(42px,7vw,76px);line-height:1.02;font-weight:400;margin:16px 0 18px}
+    .lead{max-width:760px;color:var(--muted);font-size:18px}
+    .layout{display:grid;grid-template-columns:250px 1fr;gap:64px;padding:56px 0}
+    nav{position:sticky;top:24px;align-self:start}
+    nav strong{display:block;margin-bottom:16px}
+    nav a{display:block;color:var(--muted);padding:6px 0}
+    main section{padding:0 0 54px;margin:0 0 54px;border-bottom:1px solid var(--line)}
+    h2{font-family:Georgia,"Times New Roman",serif;font-size:36px;font-weight:400;margin:0 0 18px}
+    h3{font-size:20px;margin:28px 0 10px}
+    p,li{color:#d1cbc2}
+    code{background:#181b1c;border:1px solid #303333;border-radius:5px;padding:2px 6px}
+    .card{background:var(--panel);border:1px solid var(--line);padding:24px;margin:18px 0}
+    .support{border:1px solid #4b3920;background:#15120e;padding:30px;margin-top:22px}
+    .button{display:inline-block;background:var(--gold);color:#17130d;font-weight:700;padding:12px 20px;border-radius:2px;margin-top:8px}
+    footer{border-top:1px solid var(--line);padding:32px 0;color:var(--muted);font-size:14px}
+    @media(max-width:760px){.layout{grid-template-columns:1fr;gap:24px}nav{position:static}.wrap{width:min(100% - 28px,var(--max))}header{padding:52px 0 44px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="eyebrow">ROAST Coffee · Shopify Theme</div>
+    <h1>Theme Documentation</h1>
+    <p class="lead">A practical guide to installing, setting up, customizing, and troubleshooting the ROAST Coffee Shopify theme.</p>
+  </div>
+</header>
+
+<div class="wrap layout">
+  <nav aria-label="Documentation">
+    <strong>Contents</strong>
+    <a href="#getting-started">Getting Started</a>
+    <a href="#installation">Installation</a>
+    <a href="#setup">Theme Setup</a>
+    <a href="#homepage">Homepage</a>
+    <a href="#products">Products & Collections</a>
+    <a href="#navigation">Header & Navigation</a>
+    <a href="#cart">Cart & Checkout</a>
+    <a href="#pages">Pages & Blog</a>
+    <a href="#settings">Theme Settings</a>
+    <a href="#troubleshooting">Troubleshooting</a>
+    <a href="#support">Support</a>
+  </nav>
+
+  <main>
+    <section id="getting-started">
+      <h2>Getting Started</h2>
+      <p>ROAST Coffee is a premium editorial Shopify theme designed for specialty coffee brands. After installing the theme, open the Shopify Theme Editor to configure the store content, branding, products, collections, and homepage sections.</p>
+      <div class="card"><strong>Recommended order:</strong> install the theme → configure Theme Settings → add products and collections → configure navigation → build the homepage → review mobile layout → test cart, forms, search, and customer-facing pages.</div>
+    </section>
+
+    <section id="installation">
+      <h2>Installation</h2>
+      <h3>Shopify Theme Store</h3>
+      <p>Install ROAST Coffee from your Shopify admin and open <strong>Online Store → Themes</strong>. Select ROAST Coffee and choose <strong>Customize</strong> to begin setup.</p>
+      <h3>Theme files</h3>
+      <p>For development or a customized copy, use Shopify's supported theme development workflow and keep a backup of the theme before making structural changes.</p>
+    </section>
+
+    <section id="setup">
+      <h2>Theme Setup</h2>
+      <h3>Branding</h3>
+      <p>Set your logo, colors, typography, favicon, and other global brand options in the Theme Editor.</p>
+      <h3>Products</h3>
+      <p>Create products in Shopify admin, add product images and descriptions, assign collections, and configure variants where required.</p>
+      <h3>Navigation</h3>
+      <p>Configure menus in <strong>Content → Menus</strong> and connect them to the header and footer navigation areas.</p>
+    </section>
+
+    <section id="homepage">
+      <h2>Homepage</h2>
+      <p>The ROAST homepage is built from configurable Shopify sections. Typical sections include the cinematic hero, sourcing narrative, featured coffee collection, tasting notes, and supporting editorial content.</p>
+      <div class="card"><strong>Tip:</strong> Keep hero media optimized and check every section at both desktop and mobile widths after changing images, text, spacing, or alignment.</div>
+    </section>
+
+    <section id="products">
+      <h2>Products & Collections</h2>
+      <p>Use Shopify's Products and Collections areas to control the catalog. Theme collection sections can display products from the collection selected in the Theme Editor.</p>
+      <h3>Product page</h3>
+      <p>Review product media, price, variants, quantity controls, Add to Cart, accelerated checkout, tax messaging, product information, and related coffee recommendations after configuration.</p>
+    </section>
+
+    <section id="navigation">
+      <h2>Header & Navigation</h2>
+      <p>Configure the primary menu and customer-facing navigation through Shopify's menu settings and the theme's Header settings. Test every link after changing menu destinations.</p>
+    </section>
+
+    <section id="cart">
+      <h2>Cart & Checkout</h2>
+      <p>The cart is handled through Shopify's checkout system. Add products to the cart and verify quantities, removal, totals, discount behavior, and the checkout handoff in your store.</p>
+      <p>Accelerated checkout options shown to customers depend on Shopify and the store's available payment methods and configuration.</p>
+    </section>
+
+    <section id="pages">
+      <h2>Pages & Blog</h2>
+      <h3>Our Story</h3>
+      <p>Use the dedicated page template for the brand story and sourcing narrative.</p>
+      <h3>Contact</h3>
+      <p>Use Shopify's page and contact-form functionality for customer enquiries.</p>
+      <h3>Blog & Articles</h3>
+      <p>Create blog posts in Shopify admin and use the theme's blog and article templates to present editorial content.</p>
+      <h3>Search</h3>
+      <p>Customers can use the theme search interface to find products and relevant store content.</p>
+    </section>
+
+    <section id="settings">
+      <h2>Theme Settings</h2>
+      <p>Global visual settings should be configured first, followed by section-level settings. When changing typography, colors, spacing, or media, review the homepage, collection, product, cart, and content pages on both desktop and mobile.</p>
+    </section>
+
+    <section id="troubleshooting">
+      <h2>Troubleshooting</h2>
+      <h3>A section is not displaying</h3>
+      <p>Confirm that the section is enabled in the Theme Editor, that required content is configured, and that the selected product or collection contains the expected items.</p>
+      <h3>A link does not work</h3>
+      <p>Open the relevant Shopify menu or section setting and verify that the destination is correct and the referenced page, product, collection, or blog exists.</p>
+      <h3>Mobile layout looks different</h3>
+      <p>Review the section's mobile settings and test at a narrow viewport. Avoid using oversized images or unusually long headings that can create unwanted wrapping.</p>
+      <h3>Changes are not visible</h3>
+      <p>Make sure the correct theme is being previewed and saved. If developing locally, confirm the local theme is synchronized with the intended Shopify theme before publishing changes.</p>
+    </section>
+
+    <section id="support">
+      <h2>Support</h2>
+      <p>If you need help with ROAST Coffee, please provide your email, Shopify store URL, theme version, a clear description of the issue, reproduction steps, and a screenshot or video when possible.</p>
+      <div class="support">
+        <h3>ROAST Coffee — Theme Support</h3>
+        <p>Submit a support request through our dedicated support form.</p>
+        <a class="button" href="https://tally.so/r/RGOLV9" target="_blank" rel="noopener">Open Support Form</a>
+      </div>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">© ROAST Coffee · Shopify Theme Documentation</div>
+</footer>
+</body>
+</html>
